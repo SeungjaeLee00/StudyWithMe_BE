@@ -27,4 +27,7 @@ public class Users {
 
     @Column(name = "created_at", nullable = false)
     private LocalDateTime createdAt;
+
+    @Column(name = "refresh_token")
+    private String refreshToken;
 }
